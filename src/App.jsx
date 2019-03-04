@@ -1,9 +1,12 @@
-/* eslint-disable react/prefer-stateless-function */
+import CssBaseline from "@material-ui/core/CssBaseline";
 import React from "react";
+import TodoList from "./components/TodoList";
 
 const App = () => (
   <div className="App">
-    <p>Hello from todo-app</p>
+    <CssBaseline>
+      <TodoList />
+    </CssBaseline>
   </div>
 );
 
